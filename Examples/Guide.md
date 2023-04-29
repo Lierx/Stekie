@@ -41,7 +41,7 @@ namespace myProgram
 # Diferentes metodos
 Ahora veremos los diferentes metodos para obtener las cookies de los diversos navegadores aceptados
 
-Chrome.cookies
+Opera.cookies
 ---------
 ```CSharp
 .GetString()
@@ -58,4 +58,27 @@ Chrome.cookies
 `Metodo Estatico` `Boolean`
 
 **Ejemplo**
+```CSharp
+using System;
+using Stekie;
+
+namespace myProgram
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            if (Opera.cookies.GetBool()) //Verifica si se encontraron las cookies de Opera
+            {
+                Console.WriteLine("Cookies Encontradas:");
+                Console.WriteLine(Chrome.cookies.GetString()); //Si las encuentra las imprime en pantalla
+            } else
+            {
+                Console.WriteLine("Cookies no encontradas."); //Si no las encuentra no hace nada
+            }
+            Console.WriteLine("[ Enter para continuar ]");
+            Console.ReadLine();
+        }
+    }
+}
 ```
