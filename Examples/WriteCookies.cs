@@ -1,17 +1,34 @@
+using System;
 using System.IO;
 using Stekie;
+using Stekie;
 
-namespace Example
+namespace CookiesExample
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Obtener las cookies de Chrome como un String
-            string cookiesString = Chrome.cookies.GetString();
+            var cookies = Chrome.cookies.GetList();
+
+            // Imprimir las cookies en la consola
+            foreach (var cookie in cookies)
+            {
+                Console.WriteLine(cookie.ToString());
+            }
 
             // Escribir las cookies en un archivo de texto
-            File.WriteAllText("cookies.txt", cookiesString);
+            string cookiesFilePath = "cookies.txt";
+            using (StreamWriter writer = new StreamWriter(cookiesFilePath))
+            {
+                foreach (var cookie in cookies)
+                {
+                    writer.WriteLine(cookie.ToString());
+                }
+            }
+
+            Console.WriteLine("Las cookies se han guardado en el archivo: " + cookiesFilePath);
+            Console.ReadLine();
         }
     }
 }
