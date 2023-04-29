@@ -1,16 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Stekie;
 
-namespace Stekie
+namespace myProgram
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // Ve a /Examples para aprender a usar Stekie
+            if (Chrome.cookies.GetBool()) //Verifica si se encontraron las cookies de Chrome
+            {
+                Console.WriteLine("Cookies Encontradas:");
+                Console.WriteLine(Opera.cookies.GetString()); //Si las encuentra las imprime en pantalla
+            } else
+            {
+                Console.WriteLine("Cookies no encontradas."); //Si no las encuentra no hace nada
+            }
+            Console.WriteLine("[ Enter para continuar ]");
+            Console.ReadLine();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Stekie
         {
             private static List<Cookie> stcookies = null;
             private static string path = $@"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\Opera Software\Opera Stable\Network\Cookies";
-            public static string getString()
+            public static string GetString()
             {
                 if (stcookies == null)
                 {
@@ -28,7 +28,7 @@ namespace Stekie
 
                 return cookieString.ToString();
             }
-            public static List<Cookie> getList()
+            public static List<Cookie> GetList()
             {
                 if (stcookies == null)
                 {
@@ -38,7 +38,7 @@ namespace Stekie
                 return stcookies;
             }
 
-            public static bool getBool()
+            public static bool GetBool()
             {
                 if (stcookies == null)
                 {

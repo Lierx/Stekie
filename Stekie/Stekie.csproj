@@ -68,7 +68,6 @@
     <Compile Include="Cookies\Edge.cs" />
     <Compile Include="Cookies\Firefox.cs" />
     <Compile Include="Cookies\Opera.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
