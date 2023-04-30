@@ -21,6 +21,12 @@ Para utilizar Stekie en C#, es necesario contar con:
 - .NET Framework 4.8
 - System.Data.SQLite (disponible en NuGet)
 
+# Instalación
+`NuGet Package Manager Console`
+```
+Install-Package Stekie -Version 1.0.0
+```
+
 # Contribución
 Si deseas contribuir con Stekie, puedes realizar un fork del proyecto y enviar tus pull requests. También puedes reportar problemas y sugerir mejoras en la sección de issues.
 
