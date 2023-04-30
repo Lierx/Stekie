@@ -19,6 +19,10 @@ Una vez tengas los archivos de Stekie en
 ```
 TuProyecto\Cookies\
 ```
+o bien los hayas instalado desde NuGet
+```
+Install-Package Stekie -Version 1.0.0
+```
 
 En el archivo .cs donde quieres utilizar las funciones debes agregar la directiva
 
