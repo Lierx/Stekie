@@ -1,11 +1,11 @@
 # Guia de uso basico
 En esta guia aprenderemos como usar Stekie de una forma simple en C#.
-- [Chrome](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#chromecookies) : Obtener las cookies de Chrome
-- [Opera](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#operacookies) : Obtener las cookies de Opera
-- [Edge](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#edgecookies) : Obtener las cookies de Edge
-- [Brave](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#bravecookies) : Obtener las cookies de Brave
-- [Firefox](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#firefoxcookies) : Obtener las cookies de Firefox
-- [Browser](https://github.com/Lierx/Stekie/edit/master/Examples/Guide.md#browsercookies) : Obtener las cookies de una ruta especifica
+- [Chrome](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#chromecookies) : Obtener las cookies de Chrome
+- [Opera](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#operacookies) : Obtener las cookies de Opera
+- [Edge](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#edgecookies) : Obtener las cookies de Edge
+- [Brave](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#bravecookies) : Obtener las cookies de Brave
+- [Firefox](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#firefoxcookies) : Obtener las cookies de Firefox
+- [Browser](https://github.com/Lierx/Stekie/edit/master/Examples/Readme.md#browsercookies) : Obtener las cookies de una ruta especifica
 
 Requisitos
 -----------
