@@ -4,6 +4,7 @@
 Stekie es una librería en C# que permite obtener las cookies de varios navegadores web. En este archivo se describen los navegadores compatibles y se proporciona información sobre cómo usar Stekie en C#.
 
 - [Ejemplos / Guia](https://github.com/Lierx/Stekie/tree/master/Examples)
+- [NuGet](https://www.nuget.org/packages/Stekie)
 
 # Navegadores compatibles
 Stekie es compatible con los siguientes navegadores:
